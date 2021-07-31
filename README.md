@@ -1,5 +1,4 @@
 # 2048 Game Clone
-#### Video Demo:  <URL HERE>
 #### Description: This is a clone of the game [2048](2048game.com).
 ![photo](static/main-photo.png)
 ## What is 2048?
