@@ -1,0 +1,46 @@
+body {
+    text-align:center;
+    padding-top:20px;
+}
+#container {
+    margin:auto;
+    width:628px;
+    border:12px solid rgb(221, 221, 221);
+    border-radius:10px;
+    text-align:center;
+    height:628px;
+    margin-top: 25px;
+}
+.row {
+    width:580;
+    height:136px;
+    text-align:center;
+    margin-left:12px;
+    margin-top:12px;
+}
+.cell {
+    margin-right:12px;
+    width:136px;
+    background-color: rgb(221, 221, 221);
+    border-radius:10px;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.cell h2 {
+    font-size: 3rem;
+}
+.cell-temp {
+    margin:0px;
+    width:136px;
+    background-color:aquamarine;
+    border-radius:10px;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    z-index:10;
+}
